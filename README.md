@@ -13,7 +13,7 @@
 
 # Features
 
-###User Management
+## User Management
 - Role-based authentication (Admin, Manager, Staff, Customer)
 - JWT-based secure authentication
 - User registration and login
