@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - JDBC_DATABASE_URL=jdbc:postgresql://db:5432/restaurant_db
+      - JDBC_DATABASE_USERNAME=postgres
+      - JDBC_DATABASE_PASSWORD=postgres
+      - JWT_SECRET=your-secret-key
+      - JWT_ISSUER=restaurant-management-system
+      - JWT_AUDIENCE=jwt-audience
+      - JWT_REALM=ktor-rms
+    depends_on:
+      - db
+    networks:
+      - rms-network
+
+  db:
+    image: postgres:14-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=restaurant_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - rms-network
+
+volumes:
+  postgres_data:
+
+networks:
+  rms-network:
+    driver: bridge 

@@ -36,7 +36,7 @@
 - Estimated preparation time
 
 ### 💳 Payment Processing
-- Multiple payment methods
+- Multiple payment methods (Cash, Card, UPI)
 - Split billing support
 - Table-wise payment tracking
 - Payment status monitoring
@@ -59,6 +59,102 @@
 - Wastage monitoring
 - Supplier management
 
-## 🚀 Quick Start
 
-1. **Prerequisites** 
+## 📱 Mobile App Integration
+
+The API is designed to work seamlessly with mobile applications:
+- RESTful endpoints
+- JWT authentication
+- JSON responses
+- Real-time updates support
+- File upload/download support
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Authors
+
+- **Hari Moradiya** - *Initial work* - [harimoradiya](https://github.com/harimoradiya)
+
+## 🙏 Acknowledgments
+
+- Ktor Framework
+- PostgreSQL
+- Swagger UI
+- All contributors
+
+## 📞 Support
+
+For support, email support@restrofy.com or join our Slack channel.
+
+## 🗺️ Roadmap
+
+- [ ] Real-time notifications
+- [ ] Advanced analytics dashboard
+- [ ] Multi-language support
+- [ ] Mobile app development
+- [ ] Cloud deployment support
+
+## 🐳 Docker Deployment
+
+### Prerequisites
+- Docker
+- Docker Compose
+
+### Steps to Deploy
+
+1. Clone the repository:
+```bash
+git clone https://github.com/harimoradiya/rms.git
+cd rms
+```
+
+2. Configure environment variables:
+- Copy `.env.example` to `.env`
+- Update the values in `.env` file
+
+3. Build and start containers:
+```bash
+docker-compose up --build
+```
+
+4. Access the application:
+- API: http://localhost:8080
+- Swagger Documentation: http://localhost:8080/swagger
+
+### Docker Commands
+
+```bash
+# Start containers in background
+docker-compose up -d
+
+# Stop containers
+docker-compose down
+
+# View logs
+docker-compose logs -f
+
+# Rebuild containers
+docker-compose up --build
+
+# Remove volumes (database data)
+docker-compose down -v
+```
+
+### Production Deployment
+
+For production deployment:
+1. Update environment variables with production values
+2. Use a proper database password
+3. Configure SSL/TLS
+4. Set up monitoring and logging
+5. Use container orchestration (Kubernetes/Docker Swarm)
