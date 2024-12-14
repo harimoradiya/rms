@@ -18,49 +18,49 @@
 - JWT-based secure authentication
 - User registration and login
 
-###Table Management
+## Table Management
 - Real-time table status tracking
 - Table reservation system
 - Session-based ordering
 
-###Order Management
+## Order Management
 - Create and manage orders
 - Real-time order tracking
 - Special instructions support
 - Session-based billing
 
-###Kitchen Display System
+## Kitchen Display System
 - Real-time order notifications
 - Order status updates
 - Priority-based queue management
 - Estimated preparation time
 
-###Payment Processing
+## Payment Processing
 - Multiple payment methods (Cash, Card, UPI)
 - Split billing support
 - Table-wise payment tracking
 - Payment status monitoring
 
-###Analytics & Reporting
+## Analytics & Reporting
 - Sales analytics
 - Popular items tracking
 - Peak hour analysis
 - Revenue reports
 
-###Feedback System
+## Feedback System
 - Customer ratings
 - Detailed feedback collection
 - Analytics on customer satisfaction
 - Service quality monitoring
 
-###Inventory Management
+## Inventory Management
 - Stock tracking
 - Low stock alerts
 - Wastage monitoring
 - Supplier management
 
 
-##Mobile App Integration
+## Mobile App Integration
 
 The API is designed to work seamlessly with mobile applications:
 - RESTful endpoints
@@ -85,14 +85,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Hari Moradiya** - *Initial work* - [harimoradiya](https://github.com/harimoradiya)
 
-##Acknowledgments
+## Acknowledgments
 
 - Ktor Framework
 - PostgreSQL
 - Swagger UI
-- All contributors
+- Exposed
 
-##Support
+## Support
 
 For support, email support@restrofy.com or join our Slack channel.
 
@@ -104,9 +104,9 @@ For support, email support@restrofy.com or join our Slack channel.
 - [ ] Mobile app development
 - [ ] Cloud deployment support
 
-##Docker Deployment
+## Docker Deployment
 
-### Prerequisites
+## Prerequisites
 - Docker
 - Docker Compose
 
