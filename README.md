@@ -11,7 +11,7 @@
 [![Kotlin](https://img.shields.io/badge/kotlin-1.9.0-blue.svg?logo=kotlin)](http://kotlinlang.org)
 [![Ktor](https://img.shields.io/badge/ktor-3.0.1-blue.svg)](https://ktor.io/)
 
-##Features
+# Features
 
 ###User Management
 - Role-based authentication (Admin, Manager, Staff, Customer)
